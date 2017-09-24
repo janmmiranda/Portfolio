@@ -14,57 +14,62 @@
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
 
-	<title>Portfolio</title>    
+	<title>Jan Matthew Miranda's Portfolio</title>    
 </head>
 
 <body>	
 	<!-- Nav bar -->
 	<nav>
-    <div class="nav-wrapper orange lighten-1">
-      <a href="#!" class="brand-logo"><span class="logo truncate">Jan Matthew Miranda</span></a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#">Resume"</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#">Resume</a></li>      
-      </ul>
-    </div>
-  </nav>    
+	    <div class="nav-wrapper orange lighten-1">
+	      <a href="#!" class="brand-logo"><span class="logo truncate">Jan Matthew Miranda</span></a>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	      <ul class="right hide-on-med-and-down">
+	        <li><a href="#education">Education</a></li>
+	        <li><a href="#projects">Projects</a></li>
+	        <li><a href="#experience">Experience</a></li>
+	        <li><a href="#">Resume"</a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><a href="#education">Education</a></li>
+	        <li><a href="#projects">Projects</a></li>
+	        <li><a href="#experience">Experience</a></li>
+	        <li><a href="#">Resume</a></li>      
+	      </ul>
+	    </div>
+  	</nav> 
+	
+	<!-- <div id="typed-strings">
+	    <p>Typed.js is a <strong>JavaScript</strong> library.</p>
+	    <p>It <em>types</em> out sentences.</p>
+	</div>
+	<span id="typed"></span> -->
+
 	<!-- Intro Banner -->
-	<div class="section no-pad-bot parallax-container valign-wrapper" id="intro-banner">
+	<div class="section no-pad-bot parallax-container valign-wrapper bgColor" id="intro-banner">
 		<div class="container">
 			<br><br>
-			<div class="row center-align">
+			<div class="row center-align valign">
 				<h5 class="header thin-text col s12 light black-text valign">Hi, I'm Jan. I build and design</h5>
+				<br>
+				<h5 class="header thin-text col s12 light black-text valign">
+					<span id="typed"></span>
+					<span></span>
+				</h5>
+				<br>
 			</div>
-			<br><br>
-			<div class="row center">
-				<a class="waves-effect btn-large hoverable orange lighten-1" href="https://i.redd.it/ldipjkqr9sxy.jpg"">Get Some</a>
+			<br>
+			<div class="row center-align">
+				<a class="waves-effect btn-large hoverable orange lighten-1" href="#contact"">Yes, I'm available for hire</a>
+			</div>
+			
+			<div class="learn-more row center-align">
+				<a href="#education" class="black-text">
+					<i class="material-icons">expand_more</i>
+				</a>
 			</div>
 		</div>
-		<div class="parallax"><img src="assets\img\newMBP.jpeg"></div>	
 	</div>
-	<div class="divider"></div>
-
-	<!-- about section -->
-	<div id="about" data-target="about" class="section no-pad-bot parallax-container">
-		<div class="container">
-			<div class="row">
-				<h3 class="orange-text lighten-1">About</h3>
-			</div>
-		</div>
-	</div>
-	<div class="divider"></div>
-
+	
 	<!-- education section -->
 	<div id="education" data-target="education" class="section no-pad-bot parallax-container">
 		<div class="container">
@@ -72,20 +77,30 @@
 				<h3 class="orange-text lighten-1">Education</h3>
 			</div>
 			<div class="row">
-				<h5 class="left-align">College: Rutgers<h5>
+		        <div class="col s12 m6">
+		          <div class="card blue-grey lighten-1">
+		            <div class="card-content white-text">
+		              <span class="card-title">Rutgers University</span>
+		              <p class="left-align">Major: Electrical &amp; Computer Engineering</p>
+		              <p class="right-align">May 2018</p>
+		            </div>
+		          </div>
+		        </div>
+		    </div>
+			<div class="row">
 				<div class="col s12 m9">
-				<ul class="collapsible" data-collapsible="accordion">
+				<ul class="collapsible blue-grey lighten-1" data-collapsible="accordion">
 				    <li>
-				      <div class="collapsible-header"><i class="material-icons">developer_mode</i>Computer Engineering</div>
-				      <div class="collapsible-body bg-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+				      <div class="collapsible-header blue-grey lighten-1 white-text"><i class="material-icons">developer_mode</i>Computer Engineering</div>
+				      <div class="collapsible-body bg-text white-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
 				    </li>
 				    <li>
-				      <div class="collapsible-header"><i class="material-icons">all_inclusive</i>Mathematics</div>
-				      <div class="collapsible-body bg-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+				      <div class="collapsible-header blue-grey lighten-1 white-text"><i class="material-icons">all_inclusive</i>Mathematics</div>
+				      <div class="collapsible-body bg-text white-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
 				    </li>
 				    <li>
-				      <div class="collapsible-header"><i class="material-icons">developer_board</i>Electrical Engineering</div>
-				      <div class="collapsible-body bg-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+				      <div class="collapsible-header blue-grey lighten-1 white-text"><i class="material-icons">developer_board</i>Electrical Engineering</div>
+				      <div class="collapsible-body bg-text white-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
 				    </li>
 				</ul>	
 				</div>
@@ -93,7 +108,6 @@
 		</div>
 		<div class="parallax"><img src="assets\img\newrubussiness.jpg"></div>
 	</div>
-	<div class="divider"></div>
 
 	<!-- projects section -->
 	<div id="projects" data-target="projects" class="section no-pad-bot parallax-container">
@@ -101,20 +115,72 @@
 			<div class="row">
 				<h3 class="orange-text lighten-1">Projects</h3>
 			</div>
+			<div class="row">
+		        <div class="col s6">
+		          <div class="card blue-grey darken-1">
+		            <div class="card-content white-text">
+		              <span class="card-title">Card Title</span>
+		              <p>I am a very simple card. I am good at containing small bits of information.
+		              I am convenient because I require little markup to use effectively.</p>
+		            </div>
+		            <div class="card-action">
+		              <a href="#">This is a link</a>
+		            </div>
+		          </div>
+		        </div>
+		        <div class="col s6">
+		          <div class="card blue-grey darken-1">
+		            <div class="card-content white-text">
+		              <span class="card-title">Card Title</span>
+		              <p>I am a very simple card. I am good at containing small bits of information.
+		              I am convenient because I require little markup to use effectively.</p>
+		            </div>
+		            <div class="card-action">
+		              <a href="#">This is a link</a>
+		            </div>
+		          </div>
+		        </div>
+		    </div>
 		</div>
 	</div>
-	<div class="divider"></div>
 
 	<!-- experience section -->
 	<div id="experience" data-target="experience" class="section no-pad-bot parallax-container">
 		<div class="container">
 			<div class="row">
 				<h3 class="orange-text lighten-1">Experience</h3>
+				<br><br>
 			</div>
+			<div class="row">
+		        <div class="col s6">
+		          <div class="card blue-grey darken-1">
+		            <div class="card-content white-text">
+		              <span class="card-title">Card Title</span>
+		              <p>I am a very simple card. I am good at containing small bits of information.
+		              I am convenient because I require little markup to use effectively.</p>
+		            </div>
+		            <div class="card-action">
+		              <a href="#">This is a link</a>
+		            </div>
+		          </div>
+		        </div>
+		        <div class="col s6">
+		          <div class="card blue-grey darken-1">
+		            <div class="card-content white-text">
+		              <span class="card-title">Card Title</span>
+		              <p>I am a very simple card. I am good at containing small bits of information.
+		              I am convenient because I require little markup to use effectively.</p>
+		            </div>
+		            <div class="card-action">
+		              <a href="#">This is a link</a>
+		            </div>
+		          </div>
+		        </div>
+		    </div>
+
 		</div>
 		<div class="parallax"><img src="assets\img\newidt.jpg"></div>
 	</div>
-	<div class="divider"></div>
 
 	<!-- contact section -->
 	<div id="contact" data-target="contact" class="section no-pad-bot parallax-container">
@@ -122,16 +188,83 @@
 			<div class="row">
 				<h3 class="orange-text lighten-1">Contact</h3>
 			</div>
+			<div class="row">
+			    <form class="col s12">
+			      <div class="row">
+			        <div class="input-field col s6">
+			          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+			          <label for="first_name">First Name</label>
+			        </div>
+			        <div class="input-field col s6">
+			          <input id="last_name" type="text" class="validate">
+			          <label for="last_name">Last Name</label>
+			        </div>
+			      </div>
+			      <div class="row">
+			        <div class="input-field col s12">
+			          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+			          <label for="disabled">Disabled</label>
+			        </div>
+			      </div>
+			      <div class="row">
+			        <div class="input-field col s12">
+			          <input id="password" type="password" class="validate">
+			          <label for="password">Password</label>
+			        </div>
+			      </div>
+			      <div class="row">
+			        <div class="input-field col s12">
+			          <input id="email" type="email" class="validate">
+			          <label for="email">Email</label>
+			        </div>
+			      </div>
+			      <div class="row">
+			        <div class="col s12">
+			          This is an inline input field:
+			          <div class="input-field inline">
+			            <input id="email" type="email" class="validate">
+			            <label for="email" data-error="wrong" data-success="right">Email</label>
+			          </div>
+			        </div>
+			      </div>
+			      <button class="btn modal-trigger waves-effect orange waves-light hoverable" type="submit">
+						Send
+						<i class="material-icons right">send</i>
+					</button>
+			    </form>
+			  </div>
+			
 		</div>
 	</div>
 
-	<footer></footer>
+	<!-- <button class="btn modal-trigger waves-effect orange waves-light hoverable" type="submit">
+								Send
+								<i class="material-icons right">send</i>
+							</button> -->
+
+	<footer class="orange white-text center-align">Thanks for visiting!</footer>
 
 	
 	<!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets\js\materialize.min.js"></script>
 	<script type="text/javascript" src="assets\js\scripts.js"></script>
+	<script type="text/javascript" src="assets\node_modules\typed.js\lib\typed.js"></script>
+	
+	<!-- Script to use typed.js -->
+	<script>
+	  var typed = new Typed('#typed', {
+	    strings: ["Websites","Mobile Applications", "Web Applications", "Imaging Detection Software", "Electric Circuits and Systems"],
+	    typeSpeed: 100,
+	    backSpeed: 80,
+	    startDelay: 600,
+	    backDelay: 1000,
+	    showCursor: true,
+	    loop: true,
+	    loopCount: Infinity,
+	  });
+	</script>
+	
 </body>
 
 

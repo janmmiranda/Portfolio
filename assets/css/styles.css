@@ -1,26 +1,29 @@
-
-.icon-block {
-	padding: 0 15px;
+body {
+	background: #78909c;
 }
-
 .icon-block .material-icons {
 	font-size: inherit;
 }
 
-.logo {
-	padding-left: 30px;
+.btn-large {
+	border-radius: 10px;
 }
 
 .thin-text {
-	background: rgba(255,204,128,.8);
-	border-radius: 10px;
+	font-weight: 300;
 	padding: 20px;
 }
 
+
 .bg-text {
-	background: #fff;
+	background-color: #78909c;
 }
 
 .parallax-container {
-	height: 600px;
+	height: 100vh;
+
+}
+
+.logo {
+	padding-left: 30px;
 }
