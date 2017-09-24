@@ -1,3 +1,26 @@
-body {
-	background: gray;
+
+.icon-block {
+	padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.logo {
+	padding-left: 30px;
+}
+
+.thin-text {
+	background: rgba(255,204,128,.8);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.bg-text {
+	background: #fff;
+}
+
+.parallax-container {
+	height: auto;
 }

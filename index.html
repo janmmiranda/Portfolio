@@ -5,17 +5,131 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!-- Compiled and minified CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-	<link rel="stylesheet" href="assets\css\styles.css">      
+	
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="assets\css\materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" href="assets\css\styles.css">   
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
 
 	<title>Portfolio</title>    
 </head>
 
 <body>	
+	<!-- Nav bar -->
+	<nav>
+		<div class="nav-wrapper orange lighten-1">
+			<a href="#!" class="brand-logo"><span class="logo">Jan Matthew Miranda</span></a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Education</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Experience</a></li>
+				<li><a href="#">Resume</a></li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Education</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Experience</a></li>
+				<li><a href="#">Resume</a></li>
+			</ul>
+		</div>
+	</nav>
+    
+	<!-- Intro Banner -->
+	<div class="section no-pad-bot parallax-container valign-wrapper" id="intro-banner">
+		<div class="container">
+			<br><br>
+			<div class="row center-align">
+				<h5 class="header thin-text col s12 light black-text valign">Hi, I'm Jan. I build and design</h5>
+			</div>
+			<br><br>
+			<div class="row center">
+				<a class="waves-effect btn-large hoverable orange lighten-1">Get Some</a>
+			</div>
+		</div>
+		<div class="parallax"><img src="newMBP.jpeg"></div>	
+	</div>
+	<div class="divider"></div>
+
+	<!-- about section -->
+	<div id="about" data-target="about" class="section no-pad-bot valign-wrapper">
+		<div class="container">
+			<div class="row">
+				<h3 class="orange-text lighten-1">About</h3>
+			</div>
+		</div>
+	</div>
+	<div class="divider"></div>
+
+	<!-- education section -->
+	<div id="education" data-target="education" class="section no-pad-bot parallax-container valign-wrapper">
+		<div class="container">
+			<div class="row">
+				<h3 class="orange-text lighten-1">Education</h3>
+			</div>
+			<div class="row">
+				<h5 class="left-align">College: Rutgers<h5>
+				<div class="col s12 m9">
+				<ul class="collapsible" data-collapsible="accordion">
+				    <li>
+				      <div class="collapsible-header"><i class="material-icons">developer_mode</i>Computer Engineering</div>
+				      <div class="collapsible-body bg-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="material-icons">all_inclusive</i>Mathematics</div>
+				      <div class="collapsible-body bg-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+				    </li>
+				    <li>
+				      <div class="collapsible-header"><i class="material-icons">developer_board</i>Electrical Engineering</div>
+				      <div class="collapsible-body bg-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+				    </li>
+				</ul>	
+				</div>
+			</div>
+		</div>
+		<div class="parallax"><img src="assets\img\newrubussiness.jpg"></div>
+	</div>
+	<div class="divider"></div>
+
+	<!-- projects section -->
+	<div id="projects" data-target="projects" class="section no-pad-bot valign-wrapper">
+		<div class="container">
+			<div class="row">
+				<h3 class="orange-text lighten-1">Projects</h3>
+			</div>
+		</div>
+	</div>
+	<div class="divider"></div>
+
+	<!-- experience section -->
+	<div id="experience" data-target="experience" class="section no-pad-bot parallax-container valign-wrapper">
+		<div class="container">
+			<div class="row">
+				<h3 class="orange-text lighten-1">Experience</h3>
+			</div>
+		</div>
+		<div class="parallax"><img src="assets\img\newidt.jpg"></div>
+	</div>
+	<div class="divider"></div>
+
+	<!-- contact section -->
+	<div id="contact" data-target="contact" class="section no-pad-bot valign-wrapper">
+		<div class="container">
+			<div class="row">
+				<h3 class="orange-text lighten-1">Contact</h3>
+			</div>
+		</div>
+	</div>
+
 	
-	<!-- Compiled and minified JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets\js\materialize.min.js"></script>
 	<script type="text/javascript" src="assets\js\scripts.js"></script>
 </body>
 
